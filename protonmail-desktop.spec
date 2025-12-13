@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 %global _app_name proton-mail
 %global _desktop_name Proton Mail
-%global _version 1.9.1
+%global _version 1.11.0
 
 Name          : protonmail-desktop
 Version       : %{_version}
@@ -64,6 +64,9 @@ mv usr/share/pixmaps/%{_app_name}.png %{buildroot}%{_datadir}/pixmaps
 /opt/%{_app_name}
 
 %changelog
+* Sat Dec 13 2025 ArchitektApx <architektapx@gehinors.ch> - 1.11.0
+- Update to upstream release 1.11.0
+
 * Wed Oct 15 2025 ArchitektApx <architektapx@gehinors.ch> - 1.9.1
 - Update to upstream release 1.9.1
 
